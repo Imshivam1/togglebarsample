@@ -1,0 +1,49 @@
+:root{
+  --on:white;
+  --off: black;
+  --toggle-width:80px;
+  --toggle-height:30px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color:white;
+}
+h1{
+  margin-top: 10%;
+  text-align: center;
+  color:black;
+}
+.Toggle input{
+  height: 0;
+  width: 0;
+}
+
+.Toggle .switch{
+  display: block;
+  margin: 100px auto;
+  width: var(--toggle-width);
+  height: var(--toggle-height);
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--off);
+  border-radius: 40px;
+  position: relative;
+  transition: all ease 0.3s;
+}
+
+.Toggle .switch::before{
+  content: "";
+  display: block;
+  height: 30px;
+  width: var(--toggle-height);
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: all ease 0.3s;
+
+}
+
+
