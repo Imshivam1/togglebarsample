@@ -29,7 +29,7 @@ h1{
   background-color: var(--off);
   border-radius: 40px;
   position: relative;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
 }
 
 .Toggle .switch::before{
@@ -42,8 +42,6 @@ h1{
   position: absolute;
   top: 5px;
   left: 5px;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
 
 }
-
-
